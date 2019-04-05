@@ -1,0 +1,11 @@
+
+public class GCF
+{
+    public int euclid(int a, int b) {
+       if(a==b) return a;
+       if(a>b) return euclid(a-b, b);
+       if(b<a) return euclid(b-a, a);
+       return 0;
+    }
+ 
+}
